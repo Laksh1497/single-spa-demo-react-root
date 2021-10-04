@@ -54,6 +54,19 @@
       }
     }
   </script>
+  <% } if(!isLocal) %>
+
+    <script type = "systemjs-importmap">
+      {
+        "imports": {
+          "@LakshAmplifAI/root-config": "https://main.d1gz0x5a6pbf0n.amplifyapp.com/",
+          "@LakshAmplifAI/single-spa-demo-react-header":"https://main.dxdjsxc8vie1.amplifyapp.com/",
+          "@LakshAmplifAI/single-spa-demo-react-home":"https://main.dp6mk9diwsnic.amplifyapp.com/",
+          "@LakshAmplifAI/single-spa-demo-react-test-page":"https://main.dxoym2jlwemdr.amplifyapp.com/"
+        }
+      }
+    </script>
+
   <% } %>
 
   <!--
